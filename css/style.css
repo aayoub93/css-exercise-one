@@ -1,36 +1,49 @@
-body
+/*All text is 14 unless otherwise specified later on.*/
+body {
   font-size: 14px;
 }
 
+/*This portion is for the navbar that scrolls with you down the page.*/
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
-
+/*This represents spacing of the code following the navbar*/
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+/*The navbar has a larger font size.*/
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
+/*This targets the example class and all h3 tags to have the associated properties.*/
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
+/*Each text item with the h3 tag has a larger font size; they are each 1.3x larger than the previously established font-size of 14.*/
 h3 {
   font-size: 1.3em;
 }
 
+/*This represents how each of the elements under 'section' are to be set up.*/
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+/*A class of 'bottom' needed to be added to the last 3 div elements so they can be specifically modified. IDs would have been used but would have been messier. */
+.bottom {
+  background-color: orange;
+}
